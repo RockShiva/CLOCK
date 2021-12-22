@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.wel{
+    width: 40%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.welcome{
+    color: white;
+    font-size: 50px;
+    text-shadow: 3px 3px blue, -3px -3px rgb(255, 0, 0);
+}
+
+#clockContainer{
+    position: relative;
+    margin: auto; 
+    width: 40vw;
+    height: 40vw; 
+    background: url("clock.png") no-repeat;
+    background-size: 100%;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 1.8%;
+    height: 25%;
+    top: 24.9%;
+    left: 49.05%;
+    opacity: 0.8;   
+}
+#minute{
+    width: 1.6%;
+    height: 30%;
+    top: 20.1%;
+    left: 48.8%;
+    opacity: 0.8;  
+}
+#second{
+    width: 1%;
+    height: 40%;
+    top: 10%;
+    left: 49.25%;
+    opacity: 0.8;   
+}
+
+.creater{
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px pink, -1px -1px purple;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.creater #author{
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px rgb(27, 85, 209), -2px -2px rgb(127, 85, 109);
+}
